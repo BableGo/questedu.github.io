@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Quest | Онлайн платформа для решения заданий на время</title>
+        <link rel="stylesheet" href="files/main.css">
+        <script>
+        var login = prompt("Введите логин","");
+            if (login == "Test"){
+                document.location.href = "users/001.html";
+            }
+            if (login == "Admin"){
+                document.location.href = "users/adm.html";
+            }
+            else{
+                document.location.href = "login.html";
+                alert("Логин не найден");
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

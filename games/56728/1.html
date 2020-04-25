@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Quest | Онлайн платформа для решения заданий на время</title>
+        <link rel="stylesheet" href="../../files/main.css">
+        <link rel="shortcut icon" href="../../files/play.png" type="image/png">
+        <script>
+        </script>
+        <style>
+            .test-box{
+                height: 50px;
+                width: 50px;
+                background-color: blue;
+                margin-right: 10px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+            .test-box-2{
+                height: 50px;
+                width: 50px;
+                background-color: red;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+            .test{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                margin-top: 100px;
+            }
+            .ask-div{
+                margin-top: 300px;
+                height: 100px;
+                width: 150px;
+            }
+            .row-first{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                margin-bottom: 20px;
+            }
+            header{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <center>
+                <div class="row-first">
+                    <div class="time">
+                    <h4>Осталось</h4>
+                        <h2>20</h2>
+                    </div>
+                </div>
+                <h1><span class="header-tag">Quest</span></h1>
+                <div class="points">
+                    <h1 id="points">0</h1>
+                </div>
+                <br>
+            <hr>
+                </center>
+        </header>
+        <main>
+            <center>
+                <br>
+                <div class="row-first">
+                    <div class="container-game">
+                        <h1>Как выравнять контейнеры в столбец??</h1>
+                        <div class="test">
+                        <div class="test-box"></div>
+                        <div class="test-box-2"></div>
+                            </div>
+                        <div class="ask">
+                            <div class="ask-div" onclick="true">
+                             <H2>flex-direction: center</H2>
+                            </div>
+                            <div class="ask-div" onclick="false">
+                             <H2>flex-box: column</H2>
+                            </div>
+                            <div class="ask-div" onclick="false">
+                             <H2>display: column</H2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </main>
+    </body>
+</html>
